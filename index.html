@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/typed.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PORTFO<span>LIO</span></div>
+            <div class="Menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">skills</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+        <div>
+            <!-- <vedio src="particle.mp4" muted="" autoplay=""></vedio> -->
+            <h2>I'm Harshita<p><span>I'm a front end webdeveloper</span></p></h2>
+            <button class="c-btn">Hire me</button>
+        </div>
+
+    </header>
+
+    <section id="About">
+        <div class="section-info">
+            <h1>About</h1>
+        </div>
+
+        <div class="about-row">
+            <div class="about-left-col">
+                <img src="images/img1.jpg" width="250px" >
+            </div>
+            <div class="about-right-col">
+                <p id="p-title">
+                    Heyya....!,I'm Harshita & I'm a <span id="ani2" style="color:#e74c3c"> IIITian</span>
+                </p>
+                <p>
+                    i'm a web developer
+                    i am student of CSE at IIIT Dharwad.
+                    i have completed my schooling from LSA high school belgaum.and pu in Manyatha(davangere)Karnataka. MY Hobbies are Coding,dancing,playing batminton and i love trucking, adventure etc.As a beginner i'm learning new things and trying to explore myself in web development & webD is quite interesting i felt to improve skills and hope i would achieve something in this field...!
+                </p>
+
+                <button class="c-btn">Download CV</button>
+
+            </div>
+
+        </div>
+    </section>
+    <section id="skills">
+        <div class="section-info">
+            <h1 style="color:blue;">Skills</h1>
+        </div>
+
+        <div class="skills-row">
+            <div class="skills-left-col"></div>
+        </div>
+        <div class="skills-row">
+            <div class="skills-right-col"></div>
+            <p>
+                i'm a Harshey 
+                    i am a Btech first year student of IIIT Dharwad.and my skills are:    
+            </p>
+
+            <button class="c-btn">Read more</button>
+        </div>
+        <div class="skills-right-col">
+            <div class="progress-div">
+                <p>
+                <span>HTML</span><br>
+                <progress value="95"max="100"></progress>
+                <span>95%</span>
+            </p>
+            <p>
+                <span>CSS</span><br>
+                <progress value="80"max="100"></progress>
+                <span>80%</span>
+            </p>
+            <p>
+                <span>JAVASCRIPT</span><br>
+                <progress value="60"max="100"></progress>
+                <span>60%</span>
+            </p>
+            <p>
+                <span>BOOTSTRAP</span><br>
+                <progress value="50"max="100"></progress>
+                <span>50%</span>
+            </p>
+            <p>
+                <span>C </span><br>
+                <progress value="80"max="100"></progress>
+                <span>80%</span>
+            </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+     
+    <div class="section-info" style="color: white;">
+    <h1>Get in Touch</h1>
+    <p style="color: black;">We are Available</p>
+    </div>
+
+       <div class="contact-row">
+        <div class="contact-left-col">
+            <img src="images/img2.jpg" height="262"width="150">
+        </div>
+        <div class="contact-right-col"></div>
+        <form>
+            <h2>Connect with us</h2>
+            <input type="text" name=""
+            placeholder="Name">
+            <input type="email" name=""
+            placeholder="E-mail">
+            <br>
+            <textarea cols="40" rows="10" placeholder="Message"></textarea>
+            <br>
+            <button class="c-btn">Submit</button>
+        </form>
+
+
+
+
+       </div>
+    </section>
+    
+    <section id="footer">
+        <h2>Developed by<br> Harshita</h2>
+        <img src="images/free.jpg" width="100">
+    </section>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="js/jquery.ripples.js"></script>
+
+    <script>
+        jQuery(document).ready(function(){
+            $('header').ripples({
+        dropRadius: 20,
+        perturbance: 0.03,
+                
+    });
+        });
+    </script>
+
+</body>
+</html>
